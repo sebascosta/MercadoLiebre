@@ -9,6 +9,7 @@ body {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-size: 16;
+    color: #666;
  }
 
  nav{
@@ -81,7 +82,9 @@ body {
     padding-left: 10px;   
     padding-bottom: 10px; 
     padding-top: 10px;
+    color: #666;
                       
  }
-
+form { padding-bottom: 10px;
+padding-top: 10px;}
 

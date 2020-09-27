@@ -32,8 +32,8 @@
             </ul>
 
             <ul>
-                <li><a href="register.html"> Creá tu cuenta </a>  <i class="fas fa-user-plus"></i></li>
-                <li><a href="ingresa">Ingresá</a> <i class="fas fa-sign-in-alt"></i> </li>
+                <li><a href="register"> Creá tu cuenta </a>  <i class="fas fa-user-plus"></i></li>
+                <li><a href="user">Ingresá</a> <i class="fas fa-sign-in-alt"></i> </li>
                 <li><a href="miscompras">Mis compras</a> <i class="fas fa-shopping-cart"></i></li>
 
             </ul>
@@ -42,22 +42,22 @@
 
         <img src="/img-home-banner.jpg"alt= "Banner" class="mediana">
 
-        <form action="index.html" method="GET">
+        <form action="register.html" method="GET">
             <label for="name"></label>
-            <input type="text" id= "name" name="name" value= "Nombre y Apellido">
+            <input type="text" id= "name" name="name" placeholder= "Nombre y Apellido" value= "">
 
             <label for="usuario"></label>
-            <div><input type="user" id= "usuario" name="user" value="Usuario"></div>
+            <div><input type="user" id= "usuario" name="user" placeholder= "Usuario" value=""></div>
 
             <label for="email"></label>
-            <input type="email" id= "email" name="email" value="Email">
+            <input type="email" id= "email" name="email" placeholder="Email" value="">
 
             <div><label for="start">Fecha de nacimiento:</label> </div>
                
             <input type="date" id="start" name="trip-start" value="1900-01-01" min="1900-01-01" max="2020-12-31">
 
             <label for=""></label>
-            <div><input type="adress" id="Domicilio" value="Domicilio"></div>
+            <div><input type="adress" id="Domicilio" placeholder= "Domicilio" value=""></div>
             
         
 
@@ -84,7 +84,7 @@
                 <label for="">Vida sana</label>
                 <input type="checkbox" name="" value=""> 
 
-       
+            
 
                 <h4>Elegí tu foto de usuario</h4>
 
@@ -92,10 +92,10 @@
               
                 <div><input type="password" id="password" placeholder="Elije una contraseña"> </div>
                 
-                <div> <input type="password" id="password" placeholder="Confirma tu contraseña"> </div>
+                <div><input type="password" id="password" placeholder="Confirma tu contraseña"> </div>
 
 
-                <div><input type="submit" name="Enviar" value="Enviar">                                                       
+                <div><a href="index"><input type="submit" name="Enviar" value="Enviar"></a>                                                       
                 <input type="submit" name="Reset" value="Reset"></div> 
 
          </form>

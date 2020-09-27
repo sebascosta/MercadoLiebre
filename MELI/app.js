@@ -4,13 +4,18 @@ const path = require('path');
 
 
 
-app.get('/', function(req,res){ 
+app.get('/index', function(req,res){ 
     let file= path.resolve('html/index.html')
     res.sendFile(file)
-})
+})  
 
 app.get('/register', function(req,res){ 
     let file= path.resolve('html/register.html')
+    res.sendFile(file)
+})
+
+app.get('/user', function(req,res){ 
+    let file= path.resolve('html/user.html')
     res.sendFile(file)
 })
 
